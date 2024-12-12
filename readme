@@ -1,0 +1,4 @@
+W przypadku każdego modelu testowałem różną ilość epok i batch size. Najbardziej optymalny wydaje się batch size 32 oraz 64,
+natomiast w przypadku epok najbardziej optymalne było 5, ponieważ przy większych ilościach model miał tendentję to overfittingu
+przez co zmniejszała się jego dokładność. Po dodaniu augmentacji, optymalne jest 20-30 epok aby wyszkolić model na w miarę zadowalający
+poziom.
